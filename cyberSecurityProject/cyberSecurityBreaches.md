@@ -76,3 +76,31 @@ Random 5 rows of the data
 |  986 | 90839 | Entity 215               | WA      | No                            |                   8555 | 2014-05-01 00:00:00 | 2014-09-21 00:00:00 | 2016-04-20 00:00:00 | Other                          | E-mail                             |
 | 1533 | 91381 | Entity 1444              | CA      | No                            |                    690 | 2013-05-31 00:00:00 | 2015-01-30 00:00:00 | 2015-11-10 00:00:00 | Other                          | Network Server                     |
 |  551 | 90695 | Entity 243               | NY      | No                            |                   8000 | 2015-02-27 00:00:00 | 2015-02-27 00:00:00 | 2016-01-23 00:00:00 | Theft                          | Desktop Computer                   |
+
+This looks ok to me. I don't see anything alarming right off the bat. Lets move forward.
+
+First, we'll inspect the data types of each column. This will help us understand what we're working with.
+
+```python
+print(tabulate(breaches.dtypes.reset_index().rename(columns={0:'dtype', 'index':'column'}), tablefmt="pipe", headers="keys"))
+```
+|    | column                           | dtype          |
+|---:|:---------------------------------|:---------------|
+|  0 | ID                               | int64          |
+|  1 | Name of Covered Entity           | object         |
+|  2 | State                            | object         |
+|  3 | Business Associate Involved      | object         |
+|  4 | Individuals Affected             | int64          |
+|  5 | Breach Start                     | datetime64[ns] |
+|  6 | Breach End                       | datetime64[ns] |
+|  7 | Posted/Updated                   | datetime64[ns] |
+|  8 | Type of Breach                   | object         |
+|  9 | Location of Breached Information | object         | 
+
+Next, we'll look at the shape of the data. This will help us understand how many rows and columns we're working with.
+
+```python
+print(f'There are {breaches.shape[0]} rows and {breaches.shape[1]} columns in the data')
+```
+
+There are 2110 rows and 10 columns in the data
