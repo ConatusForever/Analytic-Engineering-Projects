@@ -8,7 +8,6 @@ Welcome to my Data Analytics Projects Repository in Python! This repository aims
 Data analytics has become an essential component of decision-making and problem-solving in various fields, including business, healthcare, finance, and marketing. Python, with its powerful libraries such as Pandas, NumPy, and Matplotlib, has emerged as a popular language for performing data analysis tasks efficiently and effectively.
 <br>
 <br>
-<br>
 # Repository Structure
 The repository is organized into different categories, covering a wide range of data analytics topics and techniques. Each project is self-contained and includes all the necessary code, data, and documentation to reproduce the analysis.
 <br>
