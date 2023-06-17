@@ -38,3 +38,41 @@ import datetime as dt
 df = pd.read_excel('CyberSecurityBreaches.xlsx')
 breaches = df.copy()
 ```
+Let's take a look at the data we are working with.
+
+```python
+# Inspect the data
+
+print('First 5 rows of the data')
+print(tabulate(breaches.head(), tablefmt="pipe", headers="keys"), '\n')
+print('Last 5 rows of the data')
+print(tabulate(breaches.tail(), tablefmt="pipe", headers="keys"), '\n')
+print('Random 5 rows of the data')
+print(tabulate(breaches.sample(5), tablefmt="pipe", headers="keys"))
+```
+First 5 rows of the data
+|    |    ID | Name of Covered Entity   | State   | Business Associate Involved   |   Individuals Affected | Breach Start        | Breach End          | Posted/Updated      | Type of Breach   | Location of Breached Information        |
+|---:|------:|:-------------------------|:--------|:------------------------------|-----------------------:|:--------------------|:--------------------|:--------------------|:-----------------|:----------------------------------------|
+|  0 | 90840 | Entity 1                 | TX      | No                            |                   1711 | 2015-09-13 00:00:00 | 2015-10-15 00:00:00 | 2016-06-29 00:00:00 | Theft            | Paper                                   |
+|  1 | 90711 | Entity 2                 | MO      | No                            |                    692 | 2014-07-13 00:00:00 | 2014-07-13 00:00:00 | 2016-05-29 00:00:00 | Theft            | Network Server                          |
+|  2 | 90799 | Entity 3                 | AK      | No                            |                    606 | 2015-04-06 00:00:00 | 2015-05-21 00:00:00 | 2016-01-23 00:00:00 | Theft            | Other Portable Electronic Device, Other |
+|  3 | 90868 | Entity 4                 | DC      | No                            |                  50000 | 2016-04-07 00:00:00 | 2016-04-07 00:00:00 | 2016-01-23 00:00:00 | Loss             | Laptop                                  |
+|  4 | 90611 | Entity 5                 | CA      | No                            |                   2279 | 2014-09-19 00:00:00 | 2014-09-26 00:00:00 | 2016-01-23 00:00:00 | Theft            | Desktop Computer                        | 
+
+Last 5 rows of the data
+|      |    ID | Name of Covered Entity   | State   | Business Associate Involved   |   Individuals Affected | Breach Start        | Breach End          | Posted/Updated      | Type of Breach                 | Location of Breached Information   |
+|-----:|------:|:-------------------------|:--------|:------------------------------|-----------------------:|:--------------------|:--------------------|:--------------------|:-------------------------------|:-----------------------------------|
+| 2105 | 91347 | Entity 2016              | MO      | No                            |                    700 | 2014-08-07 00:00:00 | 2015-03-05 00:00:00 | 2015-11-19 00:00:00 | Theft                          | Other                              |
+| 2106 | 91306 | Entity 2017              | IL      | No                            |                   8911 | 2011-10-17 00:00:00 | 2012-08-18 00:00:00 | 2013-05-04 00:00:00 | Hacking/IT Incident            | Other                              |
+| 2107 | 91893 | Entity 2018              | NC      | No                            |                   2777 | 2011-12-16 00:00:00 | 2013-03-09 00:00:00 | 2013-12-14 00:00:00 | Theft, Loss                    | Other Portable Electronic Device   |
+| 2108 | 91626 | Entity 2019              | OR      | No                            |                    660 | 2014-10-07 00:00:00 | 2016-08-31 00:00:00 | 2017-06-07 00:00:00 | Unauthorized Access/Disclosure | E-mail                             |
+| 2109 | 91935 | Entity 2020              | MO      | Yes                           |                    600 | 2013-01-06 00:00:00 | 2013-07-19 00:00:00 | 2013-12-02 00:00:00 | Theft                          | Desktop Computer                   | 
+
+Random 5 rows of the data
+|      |    ID | Name of Covered Entity   | State   | Business Associate Involved   |   Individuals Affected | Breach Start        | Breach End          | Posted/Updated      | Type of Breach                 | Location of Breached Information   |
+|-----:|------:|:-------------------------|:--------|:------------------------------|-----------------------:|:--------------------|:--------------------|:--------------------|:-------------------------------|:-----------------------------------|
+| 1734 | 91634 | Entity 1645              | MI      | Yes                           |                    824 | 2016-03-30 00:00:00 | 2016-12-07 00:00:00 | 2017-01-08 00:00:00 | Unauthorized Access/Disclosure | Paper                              |
+| 2069 | 91806 | Entity 1980              | MN      | Yes                           |                  10271 | 2014-12-21 00:00:00 | 2016-05-21 00:00:00 | 2016-07-08 00:00:00 | Hacking/IT Incident            | E-mail                             |
+|  986 | 90839 | Entity 215               | WA      | No                            |                   8555 | 2014-05-01 00:00:00 | 2014-09-21 00:00:00 | 2016-04-20 00:00:00 | Other                          | E-mail                             |
+| 1533 | 91381 | Entity 1444              | CA      | No                            |                    690 | 2013-05-31 00:00:00 | 2015-01-30 00:00:00 | 2015-11-10 00:00:00 | Other                          | Network Server                     |
+|  551 | 90695 | Entity 243               | NY      | No                            |                   8000 | 2015-02-27 00:00:00 | 2015-02-27 00:00:00 | 2016-01-23 00:00:00 | Theft                          | Desktop Computer                   |
