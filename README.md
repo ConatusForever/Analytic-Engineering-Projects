@@ -29,7 +29,7 @@ Machine Learning: This section presents projects that apply various machine lear
 
 # How to Use
 
-## To make the most out of this repository, follow these steps:
+### To make the most out of this repository, follow these steps:
 
 1. Clone or download the repository to your local machine.
 
