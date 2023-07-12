@@ -21,6 +21,8 @@ def build_api_service(service_name, version, key):
 
 youtube = build_api_service(api_service_name, api_version, api_key)
 
+# get list of playlists
+
 
 
 
