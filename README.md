@@ -1,4 +1,4 @@
-# Data Projects Repository in Python
+# Python Data Projects
 ![data analytics image](https://d24x5qendt1bag.cloudfront.net/uploads/2018/02/24095953/ANALYTICS_AND_DATA_SCIENCE.jpg)
 # Introduction
 
