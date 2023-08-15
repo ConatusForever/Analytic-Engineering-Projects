@@ -1,5 +1,6 @@
 # Python Data Projects
-![data analytics image](https://d24x5qendt1bag.cloudfront.net/uploads/2018/02/24095953/ANALYTICS_AND_DATA_SCIENCE.jpg)
+![image](https://github.com/ConatusForever/Python-Data-Projects/assets/84429597/6150e5a5-8fce-4fbd-aaed-de444b0bae45)
+
 # Introduction
 
 
