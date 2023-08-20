@@ -1,5 +1,6 @@
 # Python Data Projects
-![image](https://github.com/ConatusForever/Python-Data-Projects/assets/84429597/6150e5a5-8fce-4fbd-aaed-de444b0bae45)
+![image](https://github.com/ConatusForever/Python-Data-Projects/assets/84429597/8f8f7beb-5948-4c6c-b329-fb522f106168)
+
 
 # Introduction
 
