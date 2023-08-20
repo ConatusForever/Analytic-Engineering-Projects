@@ -17,7 +17,7 @@ The repository is organized into different categories, covering a wide range of 
 
 ## Here's what you will find :
 
-1. **🪛 Data Engineering**: This section focuses on data curation and modeling solutions with Ptyhon.
+1. **🪛 Data Engineering**: This section focuses on data curation and modeling solutions with Python.
    
 3. **🔍 Exploratory Data Analysis (EDA)**: This section focuses on projects that involve the initial exploration of datasets to gain insights, detect patterns, and understand the underlying relationships.
 
