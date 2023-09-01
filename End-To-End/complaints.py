@@ -1,4 +1,4 @@
-''' This program will take in the complaints dataset and clean it
+''' This program will take in the complaints dataset and clean it.
 Link to the Complaints Dataset: https://www.kaggle.com/datasets/taeefnajib/bank-customer-complaints'''
 
 import pandas as pd
