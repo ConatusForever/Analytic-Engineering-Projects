@@ -13,7 +13,7 @@ url_day = 'https://atl-eviction-tracker.herokuapp.com/rest/tractdaily'
 
 def get_data(url):
     ''' This function gets eviction data
-    from the Feeral Reserve Bank of Atlanta API'''
+    from the Federal Reserve Bank of Atlanta API'''
 
     print('Job Running...')
     try:
