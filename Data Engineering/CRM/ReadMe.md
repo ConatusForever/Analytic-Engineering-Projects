@@ -1,4 +1,4 @@
-# Azure & Snowflake End-To-End CRM Data Pipeline
+# Azure & Snowflake End-To-End CRM Data Solution
 
 ![CRM Data Flow Diagram](CRMDataFLowDiagram.png)
 
