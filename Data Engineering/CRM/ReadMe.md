@@ -1,6 +1,6 @@
 # Azure & Snowflake End-To-End CRM Data Solution
 
-![CRM Data Flow Diagram](CRMDataFLowDiagram.png)
+![CRM Data Flow Diagram]()
 
 # Project Overview
 ---
