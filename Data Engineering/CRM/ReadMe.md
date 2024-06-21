@@ -18,14 +18,15 @@ This is a End-To-End Azure & Snowflake analytics engineering project where I use
 * Statistics
 * Data Analysis
 
-# ETL Process
+# ETL & Data Modeling Process
 1. Data Ingestion:
 2. Data Transformation:
 3. Data Loading:
 4. Data Modeling:
 
-# Analytic Process
+# Dashboard Design and Visualization
 1. Summary Statistics
 2. Yoy Variance Metrics
 3. Pct. of Total
 
+# Conclusion
