@@ -8,6 +8,7 @@ This is a End-To-End Azure & Snowflake analytics engineering project where I use
 # Analytic Engineering Skills
 * SnowSQL CLI
 * SnowPark
+* Snowflake Virtual Warehouse
 * Azure Blob Storage
 * Schema Design
 * ETL Processes
