@@ -5,9 +5,16 @@
 # Project Overview
 This is a End-To-End Azure & Snowflake analytics engineering project where I used Python, SnowSQL, SnowPark & Power BI. Multiple CRM files are read from local storage and pushed to Azure Data Lake Gen2. From there I used snowSQL to build a virtual data warehouse to stage and manage my data. SnowPark was used to transform and clean the data. Power BI was used as the visualization tool used for analytical consumption.
 
-# ETL Framework Overview
-**Extract:** Retrieve data files from Azure Blob Storage. <br/>
-**Stage:** Upload the data files to Snowflake's internal or external staging area. <br/>
-**Transform:** Use SnowPark to clean and transform the data. <br/>
-**Load:** Load the transformed data into Snowflake tables. <br/>
+# Analytic Engineering Skills
+* SnowSQL CLI
+* SnowPark
+* Azure Blob Storage
+* Schema Design
+* ETL Processes
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* Statistics
+* Data Analysis
+
 
