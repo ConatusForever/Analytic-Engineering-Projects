@@ -1,4 +1,4 @@
-
+-- Created using VS code Snowflake Extention
 -- Database, Schema, Data Warehouse creation
 create database if not exists crm
  comment ='Database for loading Azure data';
