@@ -1,4 +1,8 @@
--- Created using VS code Snowflake Extention
+/*
+Created using VS code Snowflake Extention
+I removed my blob storage info so that no info was exposed in the code
+*/
+
 -- Database, Schema, Data Warehouse creation
 create database if not exists crm
  comment ='Database for loading Azure data';
@@ -54,9 +58,9 @@ create table if not exists crm.dbo.salesTeams
 create or replace storage integration analyticEngineeringIntegration
     type = external_stage
     storage_provider = 'azure' 
-    azure_tenant_id = 'a8ae74cb-9480-4769-b8e3-a20f0c7f3659'
+    azure_tenant_id = 'myTenantId'
     enabled = true
-    storage_allowed_locations= ('azure://analyticsengdatalake.blob.core.windows.net/analytics-eng/');
+    storage_allowed_locations= ('azure://storageAccountName.blob.core.windows.net/containerName/');
 
 -- using desc storage to get url to create azure role for snowflake application
 -- desc storage integration analyticEngineeringIntegration;
@@ -68,7 +72,7 @@ grant usage on integration analyticEngineeringIntegration to accountadmin;
 use schema crm.dbo;
 create or replace stage azureDataStage
 storage_integration = analyticEngineeringIntegration
-url = 'azure://analyticsengdatalake.blob.core.windows.net/analytics-eng/'
+url = 'azure://storageAccountName.blob.core.windows.net/containerName/'
 file_format = (type = csv);
 
 
