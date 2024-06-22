@@ -1,5 +1,4 @@
 # Azure & Snowflake End-To-End CRM Data Solution
-By: Hakeem Lawrence | Project #: 1 | Date: 6.21.2024
 ![CRM Data Flow Diagram](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/azure-data-warehouse-vs-snowflake.jpg?raw=true)
 
 # Business Purpose
@@ -38,3 +37,7 @@ To create the pipeline and data modeling, I used Python, SQL, SnowPark. Multiple
 3. Pct. of Total
 
 # Conclusion
+
+
+
+By: Hakeem Lawrence | Project #: 1 | Date: 6.21.2024
