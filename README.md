@@ -26,7 +26,7 @@ The repository is organized into different categories, covering a wide range of 
 
 <br>
 
-# How to Use
+## How to Use
 
 ### To make the most out of this repository, follow these steps:
 
