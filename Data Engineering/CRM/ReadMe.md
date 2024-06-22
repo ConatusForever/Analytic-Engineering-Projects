@@ -11,9 +11,9 @@ Through the implementation of this CRM data solution, I aim to:
 
 # Analytic Engineering Skills
 To develop this solution, I will leverage a variety of skills including:
-* SnowSQL CLI
+* SQL
 * SnowPark
-* Snowflake Virtual Warehouse
+* Snowflake Virtual Data Warehouse
 * Azure Blob Storage
 * Schema Design
 * ETL Processes
