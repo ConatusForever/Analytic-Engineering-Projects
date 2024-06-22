@@ -7,7 +7,6 @@
 Welcome to my Data Projects Repository in Python! This repository aims to provide a curated collection of my data analytics projects implemented in Python, serving as a valuable resource for my future reference, data analysts, scientists, and enthusiasts. Whether you are a beginner looking to hone your skills or an experienced professional seeking inspiration, this repository is designed to help give you ideas.
 
 <br>
-<br>
 
 # Repository Structure
 The repository is organized into different categories, covering a wide range of data analytics topics and techniques. Each project is self-contained and includes all the necessary code, data, and documentation to reproduce the analysis.
