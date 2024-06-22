@@ -19,6 +19,7 @@ This is an end-to-end Azure & Snowflake analytics engineering project where I us
 * Data Analysis
 
 # ETL & Data Modeling Process
+![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataFlowDiagram.png?raw=true)
 1. Data Ingestion:
 2. Data Transformation:
 3. Data Loading:
