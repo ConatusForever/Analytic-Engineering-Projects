@@ -10,7 +10,7 @@ Through the implementation of this CRM data solution, I aim to:
 * Increase Operational Efficiency
 
 # Analytic Engineering Skills
-To develop this solution,I will leverage a variety of skills including:
+To develop this solution, I will leverage a variety of skills including:
 * SnowSQL CLI
 * SnowPark
 * Snowflake Virtual Warehouse
