@@ -41,12 +41,10 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataModel.png?raw=true)
 
 # Dashboard Design and Visualization
-1. Summary Statistics
-2. Yoy Variance Metrics
-3. Pct. of Total
+Development of the dashboard is currently underway.
 
 # Conclusion
-
+currently underway.
 
 
 By: Hakeem Lawrence | Project #: 1 | Date: 6.21.2024
