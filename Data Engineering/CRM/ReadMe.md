@@ -46,5 +46,3 @@ Development of the dashboard is currently underway.
 # Conclusion
 currently underway.
 
-
-By: Hakeem Lawrence | Project #: 1 | Date: 6.21.2024
