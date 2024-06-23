@@ -33,9 +33,12 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 4. Data Modeling ->
 
 ### Data Warehouse Configuration
+![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDB.png?raw=true)
 1. Security
 2. Roles
 3. Etc.
+
+### Data Modeling
 
 # Dashboard Design and Visualization
 1. Summary Statistics
