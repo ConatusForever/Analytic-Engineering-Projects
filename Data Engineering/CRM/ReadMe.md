@@ -23,14 +23,14 @@ To develop this solution, I will leverage a variety of skills including:
 * Data Analysis
 
 # Data Engineering
-![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataFlowDiagram.png?raw=true)
-To create the pipeline and data modeling, I used Python, SQL, SnowPark. Multiple CRM files were read from local file storage and pushed to Azure Data Lake Gen2. From there, I used SQL to build a virtual data warehouse to stage and manage my data. SnowPark was used to transform and clean the data. Power BI was used as the visualize the entity relationship diagram (ERD) and provide analytical insights.
+To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Multiple CRM files were read from my local file storage and pushed to Azure Data Lake Gen2. From there, I used SQL to build a virtual data warehouse to stage and manage my data. SnowPark was used to transform and clean the data. Power BI was used as the visualize the entity relationship diagram (ERD) and provide analytical insights.
 
 ### ETL Steps:
-1. Data Ingestion:
-2. Data Transformation:
-3. Data Loading:
-4. Data Modeling:
+![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataFlowDiagram.png?raw=true)
+1. Data Ingestion -> 
+2. Data Transformation ->
+3. Data Loading ->
+4. Data Modeling ->
 
 ### Data Warehouse Configuration
 1. Security
