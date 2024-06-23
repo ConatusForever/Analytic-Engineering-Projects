@@ -1,7 +1,7 @@
 # Azure & Snowflake End-To-End CRM Data Solution
 ![CRM Data Flow Diagram](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/azure-data-warehouse-vs-snowflake.jpg?raw=true)
 
-# Business Value P
+# Business Value Proposition
 This comprehensive end-to-end Customer Relationship Management (CRM) data solution is aimed at transforming the way my client understands and interact with their customers.
 Through the implementation of this CRM data solution, I aim to:
 * **Enhance Customer Insights**: Provide actionable insights into customer purchasing behaviors.
