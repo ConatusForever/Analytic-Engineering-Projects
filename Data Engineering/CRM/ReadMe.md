@@ -38,6 +38,7 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 2. Roles:
 
 ### Data Modeling
+![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataModel.png?raw=true)
 
 # Dashboard Design and Visualization
 1. Summary Statistics
