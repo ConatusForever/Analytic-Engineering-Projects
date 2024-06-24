@@ -33,7 +33,7 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 3. Use Snowflake Service Principal to load files in into my snowflake staging area
 4. Transformed the data with snowPark & updated my data warehouse tables
 
-### Data Warehouse Configuration
+### Data Warehouse
 Choosing Snowflake as the data solution for this CRM project was ideal due to its robust feature set, including query optimization, auto-scaling, and concurrency handling. Snowflake's architecture separates compute and storage, allowing for independent and elastic scaling This helps to ensure efficient resource usage and cost management. Snowflake's query optimization capabilities provide high-speed performance by utilizing advanced indexing and caching techniques. Auto-scaling automatically adjusts resources based on workload demands, maintaining consistent performance without manual intervention. 
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDB.png?raw=true)
 
