@@ -39,7 +39,7 @@ Choosing Snowflake as the data solution for this CRM project was ideal due to it
 
 
 ### Data Modeling
- In this CRM project, using a star schema allows for efficient querying and reporting by structuring the data in a way that enhances readability and performance. The clear separation between facts and dimensions facilitates easier data navigation and faster retrieval of insights, making it an ideal choice for supporting comprehensive customer relationship management analytics.
+ In this CRM project, using a star schema allowed for efficient querying and reporting by structuring the data in a way that enhances readability and performance. The clear separation between facts and dimensions facilitates easier data navigation and faster retrieval of insights, making it an ideal choice for supporting comprehensive customer relationship management analytics.
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataModel.png?raw=true)
 
 # Dashboard Design and Visualization
