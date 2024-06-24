@@ -35,8 +35,7 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 
 ### Data Warehouse Configuration
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDB.png?raw=true)
-1. Security:
-2. Roles:
+Choosing Snowflake as the data solution for this CRM project was ideal due to its robust feature set, including query optimization, auto-scaling, and concurrency handling. Snowflake's architecture separates compute and storage, allowing for independent and elastic scaling This helps to ensure efficient resource usage and cost management. Snowflake's query optimization capabilities provide high-speed performance by utilizing advanced indexing and caching techniques. Auto-scaling automatically adjusts resources based on workload demands, maintaining consistent performance without manual intervention. Additionally, Snowflake's ability to handle high concurrency allows multiple users to run complex queries simultaneously without performance degradation. These features, combined with Snowflake’s ease of use, secure data sharing, and comprehensive security measures, make it a powerful and flexible choice for developing a comprehensive CRM data solution.
 
 ### Data Modeling
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataModel.png?raw=true)
