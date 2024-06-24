@@ -27,10 +27,11 @@ To create the pipeline and data modeling, I used Python, SQL, and SnowPark. Mult
 
 ### Extract, Transform, Load
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDataFlowDiagram.png?raw=true)
-1. Data Ingestion:
-2. Data Transformation:
-3. Data Loading:
-4. Data Modeling:
+Steps:
+1. Read csv files from local file storage
+2. Pushed the raw files to Azure Data Lake Gen2
+3. Use Snowflake Service Principal to load files in into my snowflake staging area
+4. Transformed the data with snowPark & updated my data warehouse tables
 
 ### Data Warehouse Configuration
 ![image](https://github.com/ConatusForever/Python-Data-Projects/blob/main/Data%20Engineering/CRM/CRMDB.png?raw=true)
