@@ -9,7 +9,7 @@ Through the implementation of this CRM data solution, I aim to:
 * **Optimize Sales Team Performance**: Identify top-performing and underperforming sales teams to improve overall performance.
 
 # Analytic Engineering Skills
-To develop this solution, I will utilized a variety of skills including:
+To develop this solution, I utilized a variety of skills including:
 * SQL
 * SnowPark
 * Snowflake Virtual Data Warehouse
