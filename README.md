@@ -1,4 +1,4 @@
-# Analytic Engineering Projects with Python
+# Analytic Engineering Projects
 ![image](https://github.com/ConatusForever/Python-Data-Projects/assets/84429597/8f8f7beb-5948-4c6c-b329-fb522f106168)
 
 
