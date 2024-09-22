@@ -1,4 +1,6 @@
 # Funnel Analytics Pilot
+![image](https://github.com/user-attachments/assets/d471a440-4279-4290-8c8c-38cf9913f11a)
+
 
 **Scenario:**
 My boss approached me with a unique opportunity to showcase my skills and make an impact in a pilot program for a non-profit organization selling online products. The business had been collecting data in separate, unstructured Excel files that lacked meaningful insights. My boss needed someone to transform this fragmented data into something valuable, with the ultimate goal of understanding the customer journey better. 
