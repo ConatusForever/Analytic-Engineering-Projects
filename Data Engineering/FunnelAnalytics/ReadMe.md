@@ -1,4 +1,4 @@
-# Marketing Analytics: Funnel Analytics Pilot
+# Marketing Analytics: Non-Profit Pilot Funnel Project
 ![image](https://github.com/user-attachments/assets/d471a440-4279-4290-8c8c-38cf9913f11a)
 
 
