@@ -1,0 +1,7 @@
+bs4
+datetime
+fake_useragent
+numpy
+pandas
+requests
+selenium
