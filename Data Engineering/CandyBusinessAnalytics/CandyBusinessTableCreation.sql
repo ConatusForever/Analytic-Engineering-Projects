@@ -47,6 +47,7 @@ create or replace table candy_products(
 	unit_cost float
 );
 
+--Create Sales Table
 
 create or replace table candy_sales(
 	row_id integer,
